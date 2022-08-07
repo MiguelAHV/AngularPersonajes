@@ -1,0 +1,52 @@
+@import './variables';
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: url(../assets/img/dragonIcono.png);
+    padding: 0;
+    margin: 0;
+    
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    border-radius: 20px;
+    padding: 10px;
+    font-family: $fuenteSecundaria;
+    background-color: $amarillo;
+    color: $rojo;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    color: $negro;
+    background-color: $rojo;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.prueba {
+    background-color: aquamarine;
+}
+
+.centrar {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.boton {
+    font-family: $fuenteSecundaria;
+    font-weight: 800;
+}

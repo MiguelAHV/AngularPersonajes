@@ -1,0 +1,23 @@
+@import '../../../sass/variables';
+
+.imagen {
+    max-width: 30%;
+    margin: 0 auto;
+}
+
+.fond-amarillo {
+    background-image: url(../../../assets/img/wave.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;    
+}
+
+.degradado {
+    background: linear-gradient(to bottom, $amarillo, rgba(255, 255, 255, 0));
+    height: 50px;
+}
+
+.filas {
+    display: flex;
+    justify-content: space-between;
+}
+

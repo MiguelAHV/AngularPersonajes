@@ -1,0 +1,26 @@
+
+<h1>Agregar Personaje</h1>
+<hr>
+
+<form (ngSubmit)="agregarCaracter()">
+    <div class="separacion">
+        <label>Nombre del Personaje</label>
+        <input type="text" placeholder="Nombre" name="nombre" [(ngModel)]="nuevo.nombre">
+    </div>
+
+    <div class="separacion">
+        <label>Poder del Personaje</label>
+        <input type="tel" placeholder="Poder" name="poder" [(ngModel)]="nuevo.poder">
+    </div>
+
+    <div class="separacion-btn">
+        <button class="boton" type="submit">Agregar Nuevo</button>
+    
+        <button (click)="borrarUltimo()" class="boton">Eliminar ultimo</button>
+    </div>
+    
+    
+
+
+</form>
+
